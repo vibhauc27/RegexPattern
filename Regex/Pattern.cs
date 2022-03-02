@@ -11,7 +11,7 @@ namespace RegexPattern
         public static string REGEX_MOBILENUMBER = "^91[ ][1-9][0-9]{9}$"; //91 9876543210
         public static string REGEX_PASSWORDRULE1 = "^[a-zA-Z]{8,}$"; //Qwertyyy
         public static string REGEX_PASSWORDRULE2 = "^(?=.*[A-Z])[a-zA-Z]{8,}$";
-
+        public static string PASSWORD_RULE3_REGEX = "^(?=.*[A-Z])(?=.*[0-9])[0-9a-zA-Z]{8,}$";
 
 
         //Method for first name 
@@ -19,7 +19,6 @@ namespace RegexPattern
         {
             return Regex.IsMatch(fname, REGEX_FIRSTNAME);
         }
-
         
         //Method for last name 
         public bool validateLastName(string lname)
@@ -49,6 +48,11 @@ namespace RegexPattern
         public bool validatePaswordRule2(string prule2)
         {
             return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
+        }
+
+        public bool validatePaswordRule3(string prule3)
+        {
+            return Regex.IsMatch(prule3, PASSWORD_RULE3_REGEX);
         }
     }
 }
