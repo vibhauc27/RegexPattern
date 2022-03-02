@@ -20,7 +20,7 @@ namespace RegexPattern
         public bool validateLastName(string lname)
         {
             return Regex.IsMatch(lname, REGEX_LASTNAME);
-        }        
+        }
 
         //Method for email 
         public bool validateEmail(string email)
