@@ -1,0 +1,5 @@
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\Regex.csproj.AssemblyReference.cache
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\Regex.AssemblyInfoInputs.cache
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\Regex.AssemblyInfo.cs
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\Regex.csproj.CoreCompileInputs.cache

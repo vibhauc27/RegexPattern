@@ -1,0 +1,15 @@
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\RegexPattern.exe
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\RegexPattern.deps.json
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\RegexPattern.runtimeconfig.json
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\RegexPattern.dll
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\ref\RegexPattern.dll
+C:\Users\vindy\source\repos\Regex\Regex\bin\Debug\net6.0\RegexPattern.pdb
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.csproj.AssemblyReference.cache
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.AssemblyInfoInputs.cache
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.AssemblyInfo.cs
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.csproj.CoreCompileInputs.cache
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.dll
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\ref\RegexPattern.dll
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.pdb
+C:\Users\vindy\source\repos\Regex\Regex\obj\Debug\net6.0\RegexPattern.genruntimeconfig.cache
