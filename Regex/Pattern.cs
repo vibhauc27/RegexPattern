@@ -13,6 +13,7 @@ namespace RegexPattern
         public static string REGEX_PASSWORDRULE2 = "^(?=.*[A-Z])[a-zA-Z]{8,}$";
         public static string REGEX_PASSWORDRULE3 = "^(?=.*[A-Z])(?=.*[0-9])[0-9a-zA-Z]{8,}$";
         public static string REGEX_PASSWORDRULE4 = "^([a-zA-Z0-9])[!@#$%^&]{1}([a-zA-Z0-9])*$";
+        public static string REGEX_CLEARALLEMAILSAMPLE = "^[a-z]{3,}[_+-.]{0,1}[a-z]{3,}[@][a-z]{5,}[.][a-z]{2}[.][a-z]{2}"; // abc-111@yahoo.co.in
 
 
         //Method for first name 
@@ -58,6 +59,11 @@ namespace RegexPattern
         public bool validatePaswordRule4(string prule4)
         {
             return Regex.IsMatch(prule4, REGEX_PASSWORDRULE4);
+        }
+
+        public bool validateEmailSample(string Emailsample)
+        {
+            return Regex.IsMatch(Emailsample, REGEX_CLEARALLEMAILSAMPLE);
         }
     }
 }
