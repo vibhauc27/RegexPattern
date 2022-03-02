@@ -8,12 +8,8 @@ namespace RegexPattern
         {
             Pattern pattern = new Pattern();
 
-            /* Console.WriteLine(pattern.validateFirstName("Vba"));
-             Console.WriteLine(pattern.validateLastName("Rao"));*/
-
-           // string a = Console.ReadLine();
-
-            Console.WriteLine(pattern.validateEmail("abc@bl.in"));
+            // Console.WriteLine(pattern.validateFirstName("Vba"));
+             Console.WriteLine(pattern.validateLastName("Rao"));  
         }
     }
 }
