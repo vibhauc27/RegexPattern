@@ -13,7 +13,7 @@ namespace RegexPattern
 
             //Console.WriteLine(pattern.validateEmail("abc@bl.in"));
 
-            Console.WriteLine(pattern.validatePaswordRule1("Qwertyyy"));
+            Console.WriteLine(pattern.validatePaswordRule2("Qwertyyy"));
         }
     }
 }

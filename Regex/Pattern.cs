@@ -10,6 +10,8 @@ namespace RegexPattern
         public static string REGEX_EMAIL = "^[a-zA-Z0-9.]+@[A-Za-z0-9]+.[A-Za-z]{2,4}$"; //abc@bl.in
         public static string REGEX_MOBILENUMBER = "^91[ ][1-9][0-9]{9}$"; //91 9876543210
         public static string REGEX_PASSWORDRULE1 = "^[a-zA-Z]{8,}$"; //Qwertyyy
+        public static string REGEX_PASSWORDRULE2 = "^(?=.*[A-Z])[a-zA-Z]{8,}$";
+
 
 
         //Method for first name 
@@ -37,10 +39,16 @@ namespace RegexPattern
             return Regex.IsMatch(phNo, REGEX_MOBILENUMBER);
         }
 
-        //method for password 
+        //method for password rule 1
         public bool validatePaswordRule1(string prule1)
         {
             return Regex.IsMatch(prule1, REGEX_PASSWORDRULE1);
+        }
+
+        //method for password rule 2
+        public bool validatePaswordRule2(string prule2)
+        {
+            return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
         }
     }
 }
