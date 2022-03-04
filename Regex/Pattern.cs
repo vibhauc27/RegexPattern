@@ -61,9 +61,9 @@ namespace RegexPattern
             return Regex.IsMatch(prule4, REGEX_PASSWORDRULE4);
         }
 
-        public bool validateEmailSample(string Emailsample)
+        /*public bool validateEmailSample(string[] Emailsample)
         {
             return Regex.IsMatch(Emailsample, REGEX_CLEARALLEMAILSAMPLE);
-        }
+        }*/
     }
 }
