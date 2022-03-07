@@ -14,12 +14,13 @@ namespace RegexPatternTestCases
         {
             //Arrange
             user = new Pattern();
+            
         }
         [TestMethod]
-        public void TestMethod1()
+        public void GivenUserFistName_WhenValidate_ShouldReturnTrue()
         {
             string fname = "Vba";
-
+            
             //Act
             bool expected = true;
             bool result = user.validateFirstName(fname);
@@ -29,7 +30,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod2()
+        public void GivenUserLastName_WhenValidate_ShouldReturnTrue()
         {
             string lname = "Rao";
 
@@ -42,7 +43,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod3()
+        public void GivenEmailId_WhenValidate_ShouldReturnTrue()
         {
             string email = "Vbarao@gmail.com";
 
@@ -55,7 +56,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod4()
+        public void GivenMobileNumber_WhenValidate_ShouldReturnTrue()
         {
             string phNo = "91 9876543210";
 
@@ -68,7 +69,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod5()
+        public void GivenPassword_WhenValidate_ShouldReturnTrue()
         {
             //Arrange
 
@@ -85,7 +86,7 @@ namespace RegexPatternTestCases
         //Test Cases Fails The Entry
 
         [TestMethod]
-        public void TestMethod11()
+        public void GivenUserFistName_WhenValidate_ShouldReturnFalse()
         {
             string fname = "vba";
 
@@ -98,7 +99,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod21()
+        public void GivenUserLastName_WhenValidate_ShouldReturnFalse()
         {
             string lname = "rao";
 
@@ -111,7 +112,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMetho31()
+        public void GivenEmailId_WhenValidate_ShouldReturnFalse()
         {
             string email = "vba.rao.com";
 
@@ -124,7 +125,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod41()
+        public void GivenMobileNumber_WhenValidate_ShouldReturnFalse()
         {
             string phNo = "91 0084323110";
 
@@ -137,7 +138,7 @@ namespace RegexPatternTestCases
         }
 
         [TestMethod]
-        public void TestMethod51()
+        public void GivenPassword_WhenValidate_ShouldReturnFalse()
         {
             string password = "vba@123*";
 
@@ -147,6 +148,6 @@ namespace RegexPatternTestCases
 
             //Assert
             Assert.AreNotEqual(expected, result);
-        }
+        }               
     }
 }

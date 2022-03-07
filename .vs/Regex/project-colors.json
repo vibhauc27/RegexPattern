@@ -5,7 +5,12 @@
       "ProjectGuid": "9651352e-f1cf-4f40-81c9-c8013fb74ee0",
       "DisplayName": "RegexPattern",
       "ColorIndex": 0
+    },
+    "b3f7795c-3f46-48b0-a86e-b35a7c88891a": {
+      "ProjectGuid": "b3f7795c-3f46-48b0-a86e-b35a7c88891a",
+      "DisplayName": "RegexPatternTestCases",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
