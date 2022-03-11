@@ -40,15 +40,15 @@ namespace RegexPattern
 
             Console.WriteLine("Enter Your Password2");
             string prule2 = Console.ReadLine();
-            Console.WriteLine(pattern.validatePaswordRule1(prule2));
+            Console.WriteLine(pattern.validatePaswordRule2(prule2));
 
             Console.WriteLine("Enter Your Password3");
             string prule3 = Console.ReadLine();
-            Console.WriteLine(pattern.validatePaswordRule1(prule3));
+            Console.WriteLine(pattern.validatePaswordRule3(prule3));
 
             Console.WriteLine("Enter Your Password4");
             string prule4 = Console.ReadLine();
-            Console.WriteLine(pattern.validatePaswordRule1(prule4));
+            Console.WriteLine(pattern.validatePaswordRule4(prule4));
 
             //Validating Sample Emails
             List<string> sampleEmailList = new List<string>()
