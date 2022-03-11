@@ -19,46 +19,70 @@ namespace RegexPattern
         //Method for first name 
         public bool validateFirstName(string fname)
         {
-            return Regex.IsMatch(fname, REGEX_FIRSTNAME);
+            if (Regex.IsMatch(fname, REGEX_FIRSTNAME))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_FIRSTNAME, "Invalid First Name");
         }
         
         //Method for last name 
         public bool validateLastName(string lname)
         {
-            return Regex.IsMatch(lname, REGEX_LASTNAME);
+            if (Regex.IsMatch(lname, REGEX_LASTNAME))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_LASTNAME, "Invalid Last Name");
         }
 
         //Method for email 
         public bool validateEmail(string email)
         {
-            return Regex.IsMatch(email, REGEX_EMAIL);
+            if (Regex.IsMatch(email, REGEX_EMAIL))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_EMAIL, "Invalid Email");
         }
 
         //Method for phone number
         public bool validateMobileNumber(string phNo)
         {
-            return Regex.IsMatch(phNo, REGEX_MOBILENUMBER);
+            if (Regex.IsMatch(phNo, REGEX_MOBILENUMBER))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_MOBILE, "Invalid Mobile Number");
         }
 
         //method for password rule 1
         public bool validatePaswordRule1(string prule1)
         {
-            return Regex.IsMatch(prule1, REGEX_PASSWORDRULE1);
+            if (Regex.IsMatch(prule1, REGEX_PASSWORDRULE1))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_PASSWORD, "Invalid Password");
         }
 
         //method for password rule 2
         public bool validatePaswordRule2(string prule2)
         {
-            return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
+            if (Regex.IsMatch(prule2, REGEX_PASSWORDRULE2))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_PASSWORD, "Invalid Password");
         }
 
         public bool validatePaswordRule3(string prule3)
         {
-            return Regex.IsMatch(prule3, REGEX_PASSWORDRULE3);
+            if (Regex.IsMatch(prule3, REGEX_PASSWORDRULE3))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_PASSWORD, "Invalid Password");
         }
         public bool validatePaswordRule4(string prule4)
         {
-            return Regex.IsMatch(prule4, REGEX_PASSWORDRULE4);
+            if (Regex.IsMatch(prule4, REGEX_PASSWORDRULE4))
+                return true;
+            else
+                throw new InvalidUserDetailException(InvalidUserDetailException.ExceptionType.INVALID_PASSWORD, "Invalid Password");
         }
 
         /*public bool validateEmailSample(string[] Emailsample)
